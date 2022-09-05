@@ -1,2 +1,2 @@
-# zseil.ikkm.pl
+# Zseil.ikkm.pl
 Kod strony zseil.ikkm.pl

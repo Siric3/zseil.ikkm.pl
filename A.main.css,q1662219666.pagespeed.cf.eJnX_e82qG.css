@@ -1,0 +1,76 @@
+body{
+    font-family:Arial,Helvetica,sans-serif;
+    text-align: center;
+    font-size: 150%;
+    margin:0;
+    background-color: white;
+}
+b{
+    font-size:125%;
+}
+#oddzialy{
+    width:100vw;
+    display:flex;
+    flex-wrap:wrap;
+}
+#oddzialy>div{
+    font-size:200%;
+    font-weight:bold;
+    padding:.4em;
+    margin:5px;
+    border:2px solid;
+    cursor:pointer;
+    border-radius: 25px;
+    margin-left: calc(100vw/115);
+}
+#oddzialy>div:hover{
+    background-color:#dc143c;
+    color:#ff0
+}
+#oddzialy>div span{
+    font-size:70%
+}
+a{
+    font-size: 100%;
+    display:block;
+    font-weight:bold;
+    text-decoration:none;
+    padding:.2em
+}
+a:hover{
+    background-color:#7fff00
+}
+#ref:hover{
+    background-color:#ffa07a
+}
+#tools{
+    font-size:110%;
+    font-weight:bold;
+    margin-top:1em
+}
+.a{
+    font-weight:bold;
+    color:navy
+}
+select{
+    margin-bottom:2em;
+    border: 2px solid;
+    border-radius: 25px;
+    text-align: center;
+}
+option{
+    font-size:100%
+}
+li{
+    text-align: left;
+}
+#footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 4vh;
+    background-color: navy;
+    color: white;
+    text-align: center;
+}
