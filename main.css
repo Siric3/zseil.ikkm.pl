@@ -4,6 +4,8 @@ body{
     font-size: 150%;
     margin:0;
     background-color: white;
+    height: calc(100vh+4vh);
+    width: 100vw;
 }
 b{
     font-size:125%;
@@ -21,7 +23,7 @@ b{
     border:2px solid;
     cursor:pointer;
     border-radius: 25px;
-    margin-left: calc(100vw/115);
+    margin-right: calc(100vw/115);
 }
 #oddzialy>div:hover{
     background-color:#dc143c;
@@ -46,7 +48,14 @@ a:hover{
 #tools{
     font-size:110%;
     font-weight:bold;
-    margin-top:1em
+    margin-top:1em;
+    width: 45%;
+}
+#apps{
+    font-size:110%;
+    font-weight:bold;
+    margin-top:1em;
+    width: 45%;
 }
 .a{
     font-weight:bold;
@@ -57,6 +66,7 @@ select{
     border: 2px solid;
     border-radius: 25px;
     text-align: center;
+    outline: none;
 }
 option{
     font-size:100%
@@ -65,12 +75,12 @@ li{
     text-align: left;
 }
 #footer{
-    position: fixed;
-    left: 0;
-    bottom: 0;
     width: 100vw;
-    height: 4vh;
     background-color: navy;
     color: white;
     text-align: center;
+}
+#kod{
+    all: initial;
+    color: red;
 }

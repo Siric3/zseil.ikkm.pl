@@ -14,6 +14,14 @@ function tools_change(ev){
         ev.target.value="";
     }
 }
+function apps_change(ev){
+    const option=ev.target.value;
+    if(option.length){
+        window.open(option,"_blank");
+        ev.target.value="";
+    }
+}
 
 document.querySelector("#oddzialy").addEventListener("click",oddzial_click);
 document.querySelector("#tools").addEventListener("change",tools_change);
+document.querySelector("#apps").addEventListener("change",apps_change);
